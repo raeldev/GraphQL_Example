@@ -1,0 +1,35 @@
+#GraphQL
+
+POST /graphql
+
+1 - query
+2 - mutation
+3 - subscription
+
+Schema and Resolvers
+
+{
+    mutation updateUser
+    {
+        updateUser(id: 1) {
+            email: "imoreira@leanwork.com.br" 
+        }
+    }
+
+    query users {
+        users ({ 
+            per_page: 20, 
+            page: 2, 
+            filter: {
+                nome: { "starts_with": "Israel" }
+            }
+        })
+        {
+            id,
+            name
+            groups {
+                id
+            }
+        }
+    }
+}
