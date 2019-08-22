@@ -20,7 +20,9 @@ yanr install
 node .\src\server.js
 ```
 4 - Open playground in browser http:\\localhost:4000 and feel the magic.
-![](https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
+
+<img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="100" height="100" style="margin-left: auto;
+  margin-right: auto;" />
 
 5 - Query Example (Always use POST):
 {
