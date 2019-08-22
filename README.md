@@ -25,8 +25,9 @@ node .\src\server.js
     <img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="100" height="100" />
 </div>
 
+
 5 - Query Example (Always use POST):
-```
+```graphql
 {
     query users {
         users ({ 
@@ -48,7 +49,7 @@ node .\src\server.js
 ```
 
 6 - Mutation Example:
-```
+```graphql
 {
     mutation updateUser {
         updateUser(id: 1) {
@@ -57,6 +58,7 @@ node .\src\server.js
     }
 }
 ```
+
 
 ## Built With
 
