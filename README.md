@@ -21,7 +21,7 @@ node .\src\server.js
 ```
 4 - Open playground in browser http:\\\localhost:4000 and feel the magic.
 
-<img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="150" height="150" />
+<img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="150" height="140" />
 
 
 5 - Query Example (Always use POST):
