@@ -21,10 +21,7 @@ node .\src\server.js
 ```
 4 - Open playground in browser http:\\localhost:4000 and feel the magic.
 
-<div style="text-align: center">
-    ![](https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
-    <!-- <img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="100" height="100" /> -->
-</div>
+<img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="150" height="150" />
 
 
 5 - Query Example (Always use POST):
