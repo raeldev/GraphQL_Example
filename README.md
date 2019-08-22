@@ -21,10 +21,12 @@ node .\src\server.js
 ```
 4 - Open playground in browser http:\\localhost:4000 and feel the magic.
 
-<img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="100" height="100" style="margin-left: auto;
-  margin-right: auto;" />
+<div style="text-align: center;">
+    <img src="https://media1.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="100" height="100" />
+</div>
 
 5 - Query Example (Always use POST):
+```
 {
     query users {
         users ({ 
@@ -43,8 +45,10 @@ node .\src\server.js
         }
     }
 }
+```
 
 6 - Mutation Example:
+```
 {
     mutation updateUser {
         updateUser(id: 1) {
@@ -52,7 +56,7 @@ node .\src\server.js
         }
     }
 }
-
+```
 
 ## Built With
 
